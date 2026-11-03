@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROKN AL WAHA Technical Works LLC | SIRA-Approved Security Solutions, Dubai</title>
+  <meta name="description"
+    content="Supply, installation and AMC of CCTV, alarm, access control and connected systems in Dubai.">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="canonical" href="https://www.rokntech.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/rokn_logo.png">
+  <link rel="apple-touch-icon" href="images/rokn_logo.png">
+
+  <!-- Social share preview (WhatsApp, LinkedIn, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ROKN AL WAHA Technical Works LLC">
+  <meta property="og:title" content="ROKN AL WAHA Technical Works LLC | SIRA-Approved Security Solutions, Dubai">
+  <meta property="og:description" content="CCTV, alarm, access control and connected systems in Dubai. Supply, installation and AMC.">
+  <meta property="og:url" content="https://www.rokntech.com/">
+  <meta property="og:image" content="https://www.rokntech.com/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts (only the ones actually used) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600;700&family=Manrope:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Noto+Kufi+Arabic:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&text=0123456789%2B%2F%3A.%25&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <canvas id="wires" aria-hidden="true"></canvas>
+  <header class="hdr" id="hdr">
+    <a class="brand" href="#top" aria-label="ROKN AL WAHA home">
+      <!-- <span class="mark"><i></i><i></i></span> -->
+      <span class="mark"> <img src="images/rokn_logo.png" alt="Rokn Logo"></span>
+      <span><b>ROKN AL WAHA</b><small>TECHNICAL WORKS LLC</small></span>
+      <span class="ar" lang="ar" dir="rtl">ركن الواحة</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#services">Services</a><a href="#sira">SIRA &amp; Certification</a><a href="#about">About Us</a><a
+        href="#what-we-do">What We Do</a><a href="#who-we-are">Who We Are</a><a href="#clients">Clients</a>
+      <a class="btn btn-gold" href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- LANDING -->
+    <section class="landing">
+      <!-- full-width background image: images/hero-bg.jpg (Dubai skyline at night) -->
+      <div class="hero-bg" aria-hidden="true">
+        <!-- background video: light 1080p / 720p files, chosen and started by js/main.js once enough is buffered (no stutter) -->
+        <video class="hero-video" muted loop playsinline preload="none" poster="images/hero-poster.jpg"
+          data-src-hd="images/hero-video-1080.mp4" data-src-sd="images/hero-video-720.mp4"></video>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="landing-copy">
+            <!-- <span class="tag"><i></i>SIRA APPROVED · CCTV · ACCESS CONTROL · AMC · DUBAI</span> -->
+            <h1><span class="t1">Building Safer,</span><em>Smarter Spaces.</em></h1>
+            <p>CCTV, access control, alarm and connected systems for homes, commercial and industrial sites.
+              Supplied, installed and maintained by one accountable team, with Annual Maintenance Contracts to keep
+              everything running.</p>
+
+            <div class="points">
+              <!-- logos: put images/sira-logo.png and images/iso-logo.png (transparent PNG). Without them the line icons show -->
+              <div class="pt"><span class="logo-slot"><img src="images/sira-logo.png" alt="SIRA"
+                    onerror="this.remove()"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z" />
+                    <path d="M8.5 12l2.5 2.5 4.5-5" />
+                  </svg></span>
+                <div><b>SIRA Approved</b></div>
+              </div>
+              <div class="pt"><span class="logo-slot"><img src="images/iso-logo.png" alt="ISO"
+                    onerror="this.remove()"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="9" r="6" />
+                    <path d="M9 9l2 2 3-4" />
+                    <path d="M8.5 14.5L7 21l5-2.5 5 2.5-1.5-6.5" />
+                  </svg></span>
+                <div><b>ISO Certified</b></div>
+              </div>
+            </div>
+            <div class="cta"><a class="btn btn-gold" href="#contact">Book a Consultation →</a><a class="btn btn-line"
+                href="#services">View Our Services</a></div>
+
+            <!-- 
+            <div class="stats">
+              <div><b>2015</b><span>Securing spaces since</span></div>
+              <div><b>24/7</b><span>Support, 365 days a year</span></div>
+              <div><b>3</b><span>ISO certifications</span></div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="sec" id="services">
+      <div class="wrap">
+        <div class="svh rv">
+          <div>
+            <!-- <span class="svh-eb"><i>/</i> Services We Offer</span> -->
+            <h2 class="h2">Services<br><em>We Deliver</em></h2>
+          </div>
+          <!-- <div class="svh-r">
+            <p>From supply and installation to annual maintenance, one accountable team has you covered. Choose reliability, choose Rokn Al Waha.</p>
+            <div class="svh-links"><a href="#contact">Book a Consultation <span>›</span></a><a href="tel:+971558550234">Call For Booking <span>›</span></a></div>
+          </div> -->
+        </div>
+        <div class="sv-track rv" id="track">
+          <article class="sv">
+            <div class="sv-card">
+              <div class="sv-img" style="--img:url(../images/services/cctv.jpg)">
+                <!--  -->
+              </div>
+              <div class="sv-body">
+                <div class="sv-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 15a8 8 0 0 1 16 0z" />
+                    <circle cx="12" cy="12" r="2.2" />
+                    <path d="M3 18h18" />
+                  </svg></div>
+                <span class="mono">Surveillance</span>
+                <h3>CCTV &amp; Video Surveillance</h3>
+                <p>IP and HD analog cameras, DVRs and NVRs from 4 to 64 channels, power supplies and cabling for every
+                  kind of building.</p>
+                <span class="sv-exp">Explore CCTV</span>
+              </div>
+            </div><a class="sv-go" href="#contact" aria-label="Explore CCTV"><svg viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path d="M7 17L17 7M9 7h8v8" />
+              </svg></a>
+          </article>
+          <article class="sv">
+            <div class="sv-card">
+              <div class="sv-img" style="--img:url(../images/services/access-control.jpg)">
+                <!--  -->
+              </div>
+              <div class="sv-body">
+                <div class="sv-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="6" width="18" height="12" rx="2" />
+                    <circle cx="9" cy="12" r="2" />
+                    <path d="M14 10.5h4M14 13.5h3" />
+                  </svg></div>
+                <span class="mono">Entry Security</span>
+                <h3>Access Control & Barriers</h3>
+                <p>Card readers, biometric systems, and automated barriers for secure access and parking management.</p>
+                <span class="sv-exp">Explore Access</span>
+              </div>
+            </div><a class="sv-go" href="#contact" aria-label="Explore Access"><svg viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path d="M7 17L17 7M9 7h8v8" />
+              </svg></a>
+          </article>
+          <!-- <article class="sv"><div class="sv-card">
+            <div class="sv-img" style="--img:url(../images/services/gate-barriers.jpg)">
+            </div>
+            <div class="sv-body">
+              <div class="sv-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 19h18" />
+                  <rect x="3" y="14" width="5" height="5" rx="1" />
+                  <path d="M8 15.5L21 10" />
+                  <path d="M14 13l0 0M17 11.8l0 0" />
+                </svg></div>
+              <span class="mono">Vehicle Entry</span>
+              <h3>Gate Barriers</h3>
+              <p>Automated gate barriers for vehicle access control and parking management barriers for buildings and
+                facilities.</p>
+              <span class="sv-exp">Explore Barriers</span>
+            </div>
+          </div><a class="sv-go" href="#contact" aria-label="Explore Barriers"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a></article> -->
+          <article class="sv">
+            <div class="sv-card">
+              <div class="sv-img" style="--img:url(../images/services/network.jpg)">
+                <!--  -->
+              </div>
+              <div class="sv-body">
+                <div class="sv-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="14" width="18" height="6" rx="2" />
+                    <path d="M7 17h.01M11 17h.01" />
+                    <path d="M8.5 11a5 5 0 0 1 7 0M6 8.5a8.5 8.5 0 0 1 12 0" />
+                  </svg></div>
+                <span class="mono">Network &amp; Infrastructure</span>
+                <h3>WiFi, Structured Cabling &amp; IT</h3>
+                <p>Enterprise-grade WiFi, structured cabling for data, voice and network, PoE switches, routers and UPS.
+                </p>
+                <span class="sv-exp">Explore Network</span>
+              </div>
+            </div><a class="sv-go" href="#contact" aria-label="Explore Network"><svg viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path d="M7 17L17 7M9 7h8v8" />
+              </svg></a>
+          </article>
+          <article class="sv">
+            <div class="sv-card">
+              <div class="sv-img" style="--img:url(../images/services/pabx-av.jpg)">
+                <!--  -->
+              </div>
+              <div class="sv-body">
+                <div class="sv-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 14v-2a8 8 0 0 1 16 0v2" />
+                    <rect x="3" y="14" width="4" height="6" rx="1.5" />
+                    <rect x="17" y="14" width="4" height="6" rx="1.5" />
+                    <path d="M19 20a4 4 0 0 1-4 2h-2" />
+                  </svg></div>
+                <span class="mono">Communications &amp; AV</span>
+                <h3>PABX &amp; AV Solutions</h3>
+                <p>IP-based and hybrid PABX, video conferencing, displays and integrated control for meeting rooms and
+                  auditoriums.</p>
+                <span class="sv-exp">Explore PABX &amp; AV</span>
+              </div>
+            </div><a class="sv-go" href="#contact" aria-label="Explore PABX &amp; AV"><svg viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path d="M7 17L17 7M9 7h8v8" />
+              </svg></a>
+          </article>
+          <article class="sv">
+            <div class="sv-card">
+              <div class="sv-img" style="--img:url(../images/services/automation.jpg)">
+                <!--  -->
+              </div>
+              <div class="sv-body">
+                <div class="sv-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M3 11l9-7 9 7" />
+                    <path d="M5 10v10h14V10" />
+                    <path d="M10 20v-5h4v5" />
+                  </svg></div>
+                <span class="mono">Smart Living</span>
+                <h3>Home Automation</h3>
+                <p>Lighting, climate, curtain and security control with integrated mobile-based management.</p>
+                <span class="sv-exp">Explore Automation</span>
+              </div>
+            </div><a class="sv-go" href="#contact" aria-label="Explore Automation"><svg viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path d="M7 17L17 7M9 7h8v8" />
+              </svg></a>
+          </article>
+          <article class="sv">
+            <div class="sv-card">
+              <div class="sv-img" style="--img:url(../images/services/amc.jpg)">
+              </div>
+              <div class="sv-body">
+                <div class="sv-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M14.5 6.5a4 4 0 0 0-5 5L4 17l3 3 5.5-5.5a4 4 0 0 0 5-5l-2.5 2.5-2.5-.5-.5-2.5z" />
+                  </svg></div>
+                <span class="mono">Maintenance</span>
+                <h3>AMC &amp; Support</h3>
+                <p>Comprehensive Annual Maintenance Contracts for all our solutions, with dedicated support 365 days a
+                  year.</p>
+                <span class="sv-exp">Explore AMC</span>
+              </div>
+            </div><a class="sv-go" href="#contact" aria-label="Explore AMC"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 17L17 7M9 7h8v8" />
+              </svg></a>
+          </article>
+        </div>
+        <div class="sv-nav">
+          <div class="sv-bar" id="svBar" aria-label="Carousel position"><span class="sv-thumb" id="svThumb"></span>
+          </div>
+          <div class="sv-arrows"><button id="svPrev" type="button" aria-label="Previous">←</button><button id="svNext"
+              type="button" aria-label="Next">→</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIRA APPROVED -->
+    <section class="sira2" id="sira">
+      <!-- <span class="sira2-beam b1" aria-hidden="true"></span>
+      <span class="sira2-beam b2" aria-hidden="true"></span> -->
+      <div class="wrap sira2-grid">
+        <div class="sira2-copy rv">
+          <span class="mono">Trust &amp; compliance</span>
+          <!-- <h2 class="sira2-title"><span>SIRA</span><em>APPROVED</em></h2> -->
+          <div class="sira2-head">
+            <span class="sira2-shield" aria-hidden="true">
+              <svg viewBox="0 0 120 140">
+                <defs>
+                  <linearGradient id="shg" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#E7EBF0" />
+                    <stop offset=".45" stop-color="#D6AD43" />
+                    <stop offset="1" stop-color="#D6AD43" />
+                  </linearGradient>
+                </defs>
+                <path class="sh-body" d="M60 6 L108 24 V68 C108 100 88 124 60 134 C32 124 12 100 12 68 V24 Z" />
+                <path class="sh-tick" d="M38 72 L54 88 L84 52" />
+              </svg>
+            </span>
+            <h2 class="sira2-title"><span>SIRA</span><em>APPROVED</em></h2>
+          </div>
+          <span class="sira2-line"></span>
+          <p>Recognized as a SIRA-approved security solutions provider in Dubai, ROKN AL WAHA delivers CCTV and alarm
+            systems in accordance with applicable SIRA standards and approved procedures.</p>
+        </div>
+        <div class="sira-media sira-logo-only rv">
+          <img class="sira-badge" src="images/sira-badge.png" alt="SIRA - Security Industry Regulatory Agency"
+            loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="cert" id="certification">
+      <div class="wrap cert-split">
+        <div class="cert-vis rv" id="aboutVis">
+          <div class="hero-glow"></div>
+          <div id="aboutCard"><img src="images/human_all_items.jpg"
+              alt="ROKN AL WAHA technician with security, network and smart home equipment" loading="lazy"></div>
+        </div>
+        <div class="cert-left">
+          <div class="cert-head rv">
+            <span class="mono">Certifications</span>
+            <h2 class="h2">Certified<br><em>management systems</em></h2>
+            <p class="cert-note">Certified by IQRA Certification. Issued 15-01-2025, valid until 14-01-2028.</p>
+          </div>
+          <!-- TODO: verify certificate numbers against the original certificates -->
+          <div class="cert-list rv">
+            <article class="cert-row">
+              <span class="cert-logo"><svg class="cert-ico" aria-hidden="true" viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 4l16 6v12c0 10-7 17-16 20C15 39 8 32 8 22V10z" />
+                  <path d="M16 23l6 6 11-12" />
+                </svg></span>
+              <div class="cert-txt">
+                <b class="cert-title"><span>ISO</span> <span class="font_num_family">9001:2015</span></b>
+                <p>Quality Management <i>·</i> Certificate No. 25.6286.01</p>
+              </div>
+            </article>
+            <article class="cert-row">
+              <span class="cert-logo"><svg class="cert-ico" aria-hidden="true" viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 4l16 6v12c0 10-7 17-16 20C15 39 8 32 8 22V10z" />
+                  <path d="M15 33c1-9 6-14 18-15-1 9-6 14-18 15z" />
+                  <path d="M15 33c4-5 8-9 13-11" />
+                </svg></span>
+              <div class="cert-txt">
+                <b class="cert-title"><span>ISO</span> <span class="font_num_family">14001:2015</span></b>
+                <p>Environmental Management <i>·</i> Certificate No. 25.6286.02</p>
+              </div>
+            </article>
+            <article class="cert-row">
+              <span class="cert-logo"><svg class="cert-ico" aria-hidden="true" viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 4l16 6v12c0 10-7 17-16 20C15 39 8 32 8 22V10z" />
+                  <path d="M24 16v14M17 23h14" />
+                </svg></span>
+              <div class="cert-txt">
+                <b class="cert-title"><span>ISO</span> <span class="font_num_family">45001:2018</span></b>
+                <p>Occupational Health &amp; Safety <i>·</i> Certificate No. 25.6286.03</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <!-- <section class="sec" id="about">
+      <div class="wheel l" aria-hidden="true"><span class="wc" style="--i:0"><span class="wi"><img src="images/services/cctv.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:1"><span class="wi"><img src="images/services/access-control.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:2"><span class="wi"><img src="images/services/gate-barriers.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:3"><span class="wi"><img src="images/services/network.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:4"><span class="wi"><img src="images/services/pabx-av.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:5"><span class="wi"><img src="images/services/automation.jpg" alt="" loading="lazy"></span></span></div>
+      <div class="wheel r" aria-hidden="true"><span class="wc" style="--i:0"><span class="wi"><img src="images/services/amc.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:1"><span class="wi"><img src="images/services/residential.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:2"><span class="wi"><img src="images/services/corporate.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:3"><span class="wi"><img src="images/services/industrial.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:4"><span class="wi"><img src="images/about.jpg" alt="" loading="lazy"></span></span><span class="wc" style="--i:5"><span class="wi"><img src="images/camera_bg1.jpg" alt="" loading="lazy"></span></span></div>
+      <div class="wrap about-stage">
+        
+        <div class="about-center rv">
+          <span class="about-ico"><img src="images/rokn_logo.png" alt="ROKN AL WAHA" width="64" height="64"></span>
+          <h2 class="h2">Securing spaces<br><em>since <span class="font_num_family">2015</span></em></h2>
+          <p class="lead">ROKN AL WAHA Technical Works LLC is one of the leading SIRA-approved companies in Dubai. We
+            enhance the safety and security of businesses and residential properties with state-of-the-art surveillance
+            and alarm systems, with dedicated personal attention to every project.</p>
+          <a class="btn btn-gold" href="#contact">Book a Consultation →</a>
+        </div>
+      </div>
+    </section> -->
+
+
+    <section class="sec about2" id="about">
+      <svg class="about2-path" viewBox="0 0 1440 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <path id="aboutPath"
+          d="M-20 250 C 70 540, 430 610, 700 530 C 960 450, 1140 570, 1240 330 C 1290 200, 1350 70, 1470 100" />
+        <circle class="dot" r="4.5">
+          <animateMotion dur="16s" repeatCount="indefinite">
+            <mpath href="#aboutPath" />
+          </animateMotion>
+        </circle>
+      </svg>
+      <div class="wrap">
+        <div class="about2-grid">
+          <div class="about2-copy rv">
+            <span class="mono">About us</span>
+            <h2 class="h2">Securing spaces<br><em class="since-line">since <span
+                  class="font_num_family">2015</span></em></h2>
+            <p>ROKN AL WAHA Technical Works LLC brings security systems and integrated technology together under one
+              roof. As a SIRA-approved company in Dubai, we help businesses and property owners protect their assets,
+              manage access, and keep essential systems connected through solutions tailored to their environments.</p>
+            <p>From CCTV surveillance and access control to alarm systems, PABX, audio-visual solutions, and smart-home
+              automation, we manage the journey from equipment supply and installation to ongoing maintenance. With one
+              team coordinating your technical requirements and Annual Maintenance Contracts (AMCs) supporting system
+              upkeep, you have a dependable partner to turn to beyond installation day.</p>
+            <p>Our approach is built on practical expertise, personalised service, and long-term client
+              relationships—helping create safer spaces and more dependable day-to-day operations.</p>
+            <!-- <a class="btn btn-gold" href="#contact">Book a Consultation →</a> -->
+          </div>
+          <!-- IMAGES: replace images/about-main.jpg and images/about-card.jpg with your own (same file names) -->
+          <div class="about2-imgs rv">
+            <figure class="ai ai-main"><img src="images/about1.jpg"
+                alt="ROKN AL WAHA security installation at a modern Dubai building" loading="lazy"></figure>
+            <figure class="ai ai-card"><img src="images/about2.jpg" alt="ROKN AL WAHA technician at work"
+                loading="lazy"></figure>
+          </div>
+        </div>
+
+        <div class="about2-stats rv">
+          <div class="a-stat"><b><span class="cnt" data-to="10">10</span><i>+</i></b><span>Years of experience</span>
+          </div>
+          <div class="a-stat"><b><span class="cnt" data-to="7">7</span></b><span>Core service lines</span></div>
+          <div class="a-stat"><b><span class="cnt" data-to="3">3</span></b><span>ISO certifications</span></div>
+          <div class="a-stat"><b>24<i>/</i>7</b><span>Support, 365 days a year</span></div>
+        </div>
+      </div>
+    </section>
+
+        <!-- CLIENTS -->
+    <section class="sec clients" id="clients">
+      <div class="wrap">
+        <div class="clients-head rv">
+          <span class="mono">Clientele</span>
+          <h2 class="h2" >Our Valued <span style="color: #d6ad43;">Clients</span></h2>
+          <!-- <p>Businesses across the UAE trust <b>ROKN AL WAHA</b> for security and ELV solutions they can rely on every day.</p> -->
+        </div>
+      </div>
+
+      <!-- To add a client: copy one <li> below, change the image path + alt. The loop fills itself automatically.
+           Use class="cl-card" for logos with white text (dark card instead of white). -->
+      <div class="cl-marquee rv" aria-label="Our clients">
+        <!-- MARQUEE SPEED: change data-speed below (pixels per second). Bigger = faster. 25 slow, 60 medium, 100 fast -->
+        <ul class="cl-track" data-speed="90">
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/1.png" alt="Parkonic Merchant"
+                loading="lazy"></span></li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/2.png" alt="Axiom X"
+                loading="lazy"></span></li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/3.png" alt="Memaar Building Systems (MBS)"
+                loading="lazy"></span></li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/4.png" alt="Kingspan"
+                loading="lazy"></span></li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/5.png" alt="Leader Sport"
+                loading="lazy"></span></li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/6.png" alt="TAD Logistics"
+                loading="lazy"></span></li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/7.png" alt="Cabot" loading="lazy"></span>
+          </li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/8.png" alt="Direct Shipping Services"
+                loading="lazy"></span></li>
+          <li class="cl-card"><span class="cl-inner"><img src="images/Clients/9.png" alt="Joint Tank Services FZCO"
+                loading="lazy"></span></li>
+        </ul>
+
+      </div>
+
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section class="sec" id="what-we-do">
+      <div class="wrap">
+        <div class="wwd-head rv">
+          <div>
+            <span class="mono">What we do</span>
+            <h2 class="h2">Supply. Install.<br><em>Maintain.</em></h2>
+            <p>Solutions planned around your premises, from offices and villas to warehouses and large sites.</p>
+
+          </div>
+
+        </div>
+        <div class="grid3 rv">
+          <div class="box">
+            <div class="num">01</div>
+            <h3>Supply</h3>
+            <p>Cameras, recorders, access control, network, PABX and AV equipment, including SIRA-certified CCTV and
+              alarm systems.</p>
+          </div>
+          <div class="box">
+            <div class="num">02</div>
+            <h3>Install</h3>
+            <p>Expert installation of security and connected systems, with structured cabling and network
+              infrastructure.</p>
+          </div>
+          <div class="box">
+            <div class="num">03</div>
+            <h3>Maintain</h3>
+            <p>Comprehensive Annual Maintenance Contracts and dedicated support 24 x 7, 365 days a year.</p>
+          </div>
+        </div>
+        <div class="grid3 rv">
+          <div class="img corp"><span>Corporate</span></div>
+          <div class="img resi"><span>Residential</span></div>
+          <div class="img indu"><span>Industrial</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO WE ARE -->
+    <section class="who" id="who-we-are">
+      <div class="wrap">
+        <div class="who-col">
+          <span class="mono">Who we are</span>
+          <h2 class="h2 rv">Vision <span style="color: #d6ad43;">& mission</span> </h2>
+
+          <div class="vm2 rv">
+            <div class="vm2-box"><span class="vm2-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg></span>
+              <span class="mono">Our vision</span>
+              <h3>The region's most trusted partner</h3>
+              <p>To be a recognised industry leader shaping the future of security and integrated technology through
+                innovation, technical excellence, and sustainable growth.</p>
+            </div>
+            <div class="vm2-box"><span class="vm2-ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <circle cx="12" cy="12" r="5" />
+                  <circle cx="12" cy="12" r="1.2" />
+                </svg></span>
+              <span class="mono">Our mission</span>
+              <h3>Innovative, reliable, customer-centric</h3>
+              <p>To advance the security and ELV industry by delivering reliable, high-quality solutions that meet
+                evolving technological and safety needs, while contributing to safer communities, protecting people and
+                property, and promoting responsible technology practices for the benefit of society.</p>
+            </div>
+          </div>
+
+          <!-- CORE VALUES (kept for later, remove the comment marks to show again)
+          <span class="mono vlabel rv">Our core values</span>
+          <ul class="vlist rv">
+            <li><b>Integrity</b> <span>in every interaction</span></li>
+            <li><b>Excellence</b> <span>in service delivery</span></li>
+            <li><b>Innovation</b> <span>in solving complexities</span></li>
+            <li><b>Partnership</b> <span>for long-term growth</span></li>
+          </ul>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="sec" id="contact">
+      <div class="wrap two top">
+        <div class="rv">
+          <span class="mono">Contact</span>
+          <h2 class="h2">Let's secure<br><em>your space</em></h2>
+          <span class="line"></span>
+
+          <ul class="cinfo">
+            <li>
+              <span class="ci"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg></span>
+              <div><small>Address</small>
+                <p>3-68, 1st Floor, Above Ashrafi Restaurant, Outside Cargo Village, Airport Rd,<br>Dubai, PO Box
+                  42319, UAE</p>
+              </div>
+            </li>
+            <!-- <li>
+              <span class="ci"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="8" r="4" />
+                  <path d="M4 21a8 8 0 0 1 16 0" />
+                </svg></span>
+              <div><small>Project Manager</small>
+                <p>Mr. Santhosh Kumar</p>
+              </div>
+            </li> -->
+            <li>
+              <span class="ci"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />
+                </svg></span>
+              <div><small>Phone</small>
+                <p class="cline">
+                  <a href="tel:+97142683796">04 2683 796</a>
+                  <a href="tel:+971558550234">+971 55 855 0234</a>
+                  <a href="tel:+971569943267">+971 56 994 3267</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="ci"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <path d="M3 7l9 6 9-6" />
+                </svg></span>
+              <div><small>Email</small>
+                <p class="cline">
+                  <a href="mailto:info@rokntech.com">info@rokntech.com</a>
+                  <a href="mailto:sales@rokntech.com">sales@rokntech.com</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <p class="cnote">From security systems to smart infrastructure, we deliver reliable solutions tailored to your
+            space. Connect with our team to discuss your requirements and find the right solution for your needs.</p>
+        </div>
+
+        <!-- <div class="rv"><span class="mono">Contact</span>
+          <h2 class="h2">Let's secure<br><em>your space</em></h2><span class="line"></span>
+          <address class="lead">3-68, 1st Floor, Above Ashrafi Restaurant, Outside Cargo Village, <br>Airport Rd, Dubai,
+            PO Box 42319, UAE<br>Mr. Santhosh Kumar, Project Manager<br><br><a href="tel:+97142683796">04 2683 796</a> · <a
+              href="tel:+971558550234">+971 55 855 0234</a> · <a href="tel:+971569943267">+971 56 994 3267</a><br><a
+              href="mailto:info@rokntech.com">info@rokntech.com</a> · <a
+              href="mailto:sales@rokntech.com">sales@rokntech.com</a></address>
+          <br>
+          <p class="lead" style="border-top: 1px solid #b5b1b1;padding-top:10px">
+            From security systems to smart infrastructure, we deliver reliable solutions tailored to your space. Connect
+            with our team to discuss your requirements and find the right solution for your needs.
+          </p>
+        </div> -->
+        <form class="form rv" id="form" novalidate>
+          <label>Full name<input name="name" type="text" required placeholder="Your name"></label>
+          <label>Company<input name="company" type="text" placeholder="Company name"></label>
+          <div class="f2"><label>Email<input name="email" type="email" required
+                placeholder="name@company.com"></label><label>Phone<input name="phone" type="tel"
+                placeholder="+971"></label></div>
+          <label>Service of interest<select name="service">
+              <option>CCTV &amp; Video Surveillance</option>
+              <option>Access Control &amp; Gate Barriers</option>
+              <option>WiFi, Structured Cabling &amp; IT</option>
+              <option>PABX &amp; AV</option>
+              <option>Home Automation</option>
+              <option>AMC &amp; Support</option>
+            </select></label>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us about your premises"></textarea></label>
+          <button class="btn btn-gold" type="submit">Request a Consultation →</button>
+          <input type="text" name="_honey" value="" tabindex="-1" autocomplete="off" style="display:none"
+            aria-hidden="true">
+          <p class="status" id="status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ftr">
+    <div class="wrap">
+      <div class="fgrid">
+        <div class="fbrand">
+          <a class="brand" href="#top" aria-label="ROKN AL WAHA home">
+            <span class="mark"><img src="images/rokn_logo.png" alt="Rokn logo"></span>
+            <span><b>ROKN AL WAHA</b><small>TECHNICAL WORKS LLC</small></span>
+            <span class="ar" lang="ar" dir="rtl">ركن الواحة</span>
+          </a>
+          <p>Securing spaces since 2015. Supply, installation and Annual Maintenance Contracts for CCTV, alarm, access
+            control and connected systems across Dubai.</p>
+          <div class="gold-s">SIRA APPROVED · ISO CERTIFIED</div>
+        </div>
+        <div>
+          <span class="mono">Explore</span>
+          <a href="#services">Services</a>
+          <a href="#sira">SIRA &amp; Certification</a>
+          <a href="#about">About Us</a>
+          <a href="#what-we-do">What We Do</a>
+          <a href="#who-we-are">Who We Are</a>
+          <a href="#clients">Clients</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <span class="mono">Contact</span>
+          <p class="faddr">3-68, 1st Floor, Above Ashrafi Restaurant, Outside Cargo Village, Airport Rd, Dubai, PO Box
+            42319, UAE</p>
+          <a href="mailto:info@rokntech.com">info@rokntech.com</a>
+          <a href="mailto:sales@rokntech.com">sales@rokntech.com</a>
+          <a href="tel:+971558550234">+971 55 855 0234</a>
+          <a href="tel:+971569943267">+971 56 994 3267</a>
+        </div>
+      </div>
+      <p class="copy">© <span id="yr"></span> ROKN AL WAHA TECHNICAL WORKS LLC. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/hero.js" defer></script>
+  <script src="js/services-carousel.js" defer></script>
+  <script src="js/main.js"></script>
+  <script src="js/fx.js" defer></script>
+  <script src="js/clients.js" defer></script>
+</body>
+
+</html>
