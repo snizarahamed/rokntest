@@ -11,7 +11,7 @@
     els.forEach(function(e){io.observe(e)});
   }else{els.forEach(function(e){e.classList.add('in')})}
   // contact form: sends the enquiry to info@rokntech.com through FormSubmit (no server needed)
-  var TO='nizar@nuhatech.com', ENDPOINT='https://formsubmit.co/ajax/bb456672f07c2b9de58779552f147964'+TO;
+  var TO='nizar@nuhatech.com', ENDPOINT='https://formsubmit.co/ajax/bb456672f07c2b9de58779552f147964';
   var form=document.getElementById('form'),status=document.getElementById('status');
   form.addEventListener('submit',function(e){
     e.preventDefault();
